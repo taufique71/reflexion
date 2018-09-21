@@ -1,4 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Md. Taufique Hussain"
-briefTitle = "Taufique"
+
+[params]
+    briefTitle = "Taufique"
