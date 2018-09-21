@@ -6,14 +6,13 @@
         <meta name="viewport" content="width=device-width">
         <title>
             {{ if .Page.Title }}
-                {{ $x := .Site.Params.brieftitle }}
-                {{ $y := .Page.Title }}
-                {{ $x }} | {{ $y }}
+                {{ .Site.Params.briefTitle }} | {{ .Page.Title }}
             {{else}}
                 {{ .Site.Title }}
             {{ end }}
         </title>
         <meta name="description" content="{{ .Description }}">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}site.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow" rel="stylesheet">
