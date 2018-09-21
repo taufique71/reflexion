@@ -1,25 +1,16 @@
-
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width">
-        <title>
-            {{ if .Page.Title }}
-                {{ .Site.Params.briefTitle }} | {{ .Page.Title }}
-            {{else}}
-                {{ .Site.Title }}
-            {{ end }}
-        </title>
-        <meta name="description" content="{{ .Description }}">
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}site.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow" rel="stylesheet">
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </head>
-
+    {{ partial "head" . }}
     <body>
-        {{ block "main" . }} {{ end }}
+        <div class="site">
+            {{ partial "header" . }}
+            <div class="site-body">
+                {{ partial "side_nav" .}}
+                <div class="content">
+                    {{ block "main" . }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ partial "footer" . }}
+        </div>
     </body>
 </html>

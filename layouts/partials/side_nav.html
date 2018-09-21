@@ -1,0 +1,9 @@
+<div class="side-nav">
+    <ul>
+        {{ range .Site.Data.side_nav }}
+            <li>
+                <a href={{.href}}>{{.title}}</a>
+            </li>
+        {{ end }}
+    </ul>
+</div>
