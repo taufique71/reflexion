@@ -1,0 +1,16 @@
+<html>
+    {{ partial "head" . }}
+    <body>
+        <div class="site">
+            {{ partial "header" . }}
+            <div class="site-body">
+                {{ partial "side_nav" .}}
+                <div class="content">
+                    {{ block "main" . }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ partial "footer" . }}
+        </div>
+    </body>
+</html>

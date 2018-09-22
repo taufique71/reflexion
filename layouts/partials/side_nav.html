@@ -1,0 +1,9 @@
+<div class="side-nav">
+    <ul>
+        {{ range .Site.Menus.side_nav }}
+            <li>
+                <a href={{.URL}}>{{.Name}}</a>
+            </li>
+        {{ end }}
+    </ul>
+</div>
