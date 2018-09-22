@@ -4,3 +4,30 @@ title = "Md. Taufique Hussain"
 
 [params]
     briefTitle = "Taufique"
+
+[menus]
+    [[menu.side_nav]]
+        identifier = "tech"
+        name = "Technical Posts"
+        title = "Technical Posts"
+        url = "/tech/"
+        weight = -110
+    [[menu.side_nav]]
+        identifier = "cycling_and_travel"
+        name = "Cycling And Travel Posts"
+        title = "Cycling And Travel Posts"
+        url = "/cycling_and_travel/"
+        weight = -100
+    [[menu.side_nav]]
+        identifier = "read_books"
+        name = "Books I Have Read"
+        title = "Books I Have Read"
+        url = "/read_books/"
+        weight = -90
+    [[menu.side_nav]]
+        identifier = "resume"
+        name = "Resume and CV"
+        title = "Resume and CV"
+        url = "/resume/"
+        weight = -80
+

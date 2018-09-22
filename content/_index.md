@@ -1,5 +1,7 @@
 ---
 title: Home
-description: Homepage of personal site of Taufique(taufique71@gmail.com)
+description: Home of Taufique
 ---
-Hello World!
+
+Welcome to homepage of Taufique.
+This is my home of personal thoughts about life, universe and everything.

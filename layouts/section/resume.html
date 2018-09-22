@@ -1,0 +1,9 @@
+{{ define "main" }}
+    <h1>{{.Title}}</h1>
+    <br/>
+    {{ .Content }}
+    {{if .Content }}
+        <br/>
+    {{end}}
+    <a href="{{.Site.BaseURL}}resume.pdf">Download Resume</a>
+{{ end }}
