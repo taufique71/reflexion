@@ -16,10 +16,10 @@ This is just for my future reference only.
 <br/>
 
 
-# Useful Command List
+### Useful Command List
 This is the list of Vim commands which became useful to me.
 
-### Table of Contents
+#### Table of Contents
 - [Tabs](#tabs)
 - [Line Movement](#line-movement)
 - [Search](#search)

@@ -1,16 +1,17 @@
 <html>
     {{ partial "head" . }}
     <body>
-        <div class="site">
+        <div class="container">
             {{ partial "header" . }}
-            <div class="site-body">
-                {{ partial "side_nav" .}}
-                <div class="content">
-                    {{ block "main" . }}
-                    {{ end }}
+            {{ partial "navigation" . }}
+            <main class="container">
+                <div class="row">
+                    <div class="col-md-12 blog-main">
+                        {{ block "main" . }}
+                        {{ end }}
+                    </div>
                 </div>
-            </div>
-            {{ partial "footer" . }}
+            </main>
         </div>
     </body>
 </html>
