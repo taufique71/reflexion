@@ -11,7 +11,8 @@
         "author": "Paul Kalanithi",
         "goodreads": "https://www.goodreads.com/book/show/25899336-when-breath-becomes-air",
         "amazon": "https://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X",
-        "date": "March 3, 2018"
+        "date": "March 3, 2018",
+        "publish": "Yes"
     },
     {
         "title": "Peril at End House",
@@ -26,7 +27,8 @@
         "goodreads": "https://www.goodreads.com/book/show/160171.Just_for_Fun",
         "amazon": "https://www.amazon.com/Just-Fun-Story-Accidental-Revolutionary/dp/0066620732",
         "date": "August 6, 2017",
-        "comment": "A biography of Linux narrated by it's dad. To some extent biography of Linus too."
+        "comment": "A biography of Linux narrated by it's dad. To some extent biography of Linus too.",
+        "publish": "Yes"
     },
     {
         "title": "My Turn: The Autobiography",
@@ -34,7 +36,8 @@
         "goodreads": "https://www.goodreads.com/book/show/30968461-my-turn",
         "amazon": "https://www.amazon.com/My-Turn-Autobiography-Johan-Cruyff-ebook/dp/B01DKWBKSK",
         "date": "June 24, 2017",
-        "comment": "Must read for every FC Barcelona fan if he/she doesn't have clear idea of how much influence this guy had on the team's today's position. This book turned out to be lot more engaging than it seemed from the reviews before starting it."
+        "comment": "Must read for every FC Barcelona fan if he/she doesn't have clear idea of how much influence this guy had on the team's today's position. This book turned out to be lot more engaging than it seemed from the reviews before starting it.",
+        "publish": "Yes"
     },
     {
         "title": "Harry Potter and the Prisoner of Azkaban",

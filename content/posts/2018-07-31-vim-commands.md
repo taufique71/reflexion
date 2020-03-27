@@ -2,6 +2,7 @@
 title: Necessary Vim Commands
 date: 2018-07-31
 permalink: vim-commands
+tag: tech
 ---
 
 I was introduced to Vim in 2012.

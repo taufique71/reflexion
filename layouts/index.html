@@ -1,13 +1,13 @@
 {{ define "main" }}
-    {{ .Content }}
-    <!--{{if .Content }}-->
-        <!--<br/>-->
-    <!--{{end}}-->
+    <p>{{ .Content }}</p>
     <ul>
         {{range .Site.RegularPages }}
-            <li>
-                {{.Date.Format "2006-01-02"}} - <a href={{.Permalink}}> {{.Title}} </a>
-            </li>
+            <!--{{.Kind}}-->
+            <!--{{ if eq .Kind "posts"}}-->
+                <li>
+                    {{.Date.Format "2006-01-02"}} - <a href={{.Permalink}}> {{.Title}} </a>
+                </li>
+            <!--{{ end }}-->
         {{ end }}
     </ul>
 {{ end }}

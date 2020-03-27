@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <p>{{ .Content }}</p>
+    <ul>
+        {{range .Pages }}
+            {{ if .IsPage }}
+                <li><a href={{.Permalink}}> {{.Title}} </a></li>
+            {{ end }}
+        {{ end }}
+    </ul>
+{{ end }}

@@ -7,6 +7,18 @@
             <main class="container">
                 <div class="row">
                     <div class="col-md-12 blog-main">
+                        {{ if (not .IsHome) }} 
+                            <h2 class="blog-post-title">
+                                {{ .Title }}
+                            </h2> 
+                        {{ end }}
+
+                        {{ if (.IsPage) }}
+                            <p class="blog-post-meta">
+                                {{ if (gt .Date "0001-01-01") }} {{ .Date.Format "2006-01-02" }} {{ end }}
+                            </p>
+                        {{ end }}
+
                         {{ block "main" . }}
                         {{ end }}
                     </div>

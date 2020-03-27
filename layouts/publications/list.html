@@ -1,0 +1,22 @@
+{{ define "main" }}
+    <p>{{ .Content }}</p>
+    <ul>
+        {{ range .Site.Data.publications }}
+            {{ if .publish }}
+                <li> 
+                    {{ .author }}, 
+                    <strong>{{ .title }}</strong>, 
+                    <i>{{.place}}</i>, 
+                    {{.year}}
+                    [
+                    {{if .link}}
+                        {{if .link.arxiv}}
+                            <a href="{{.link.arxiv}}">arXiv</a>
+                        {{end}}
+                    {{end}}
+                    ]
+                </li>
+            {{end}}
+        {{ end }}
+    </ul>
+{{ end }}

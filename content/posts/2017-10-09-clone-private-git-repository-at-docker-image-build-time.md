@@ -2,6 +2,7 @@
 title: Cloning Private Git Repository at Docker Image Build Time
 date: 2017-10-09
 permalink: cloning-private-git-repository-at-docker-build-time
+tag: tech
 ---
 
 Recently I faced a problem while building a Docker image for my work purpose.

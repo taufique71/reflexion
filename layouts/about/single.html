@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <p> {{.Content}} </p>
+    {{ if .Params.readbooks }}
+        <ul>
+            {{range .Site.Data.readbooks }}
+                {{if .publish}}
+                    <li> 
+                        <a href={{.goodreads}}> {{.title}} </a>
+                        {{.author}} <!--[{{.date}}]-->
+                        {{if .comment}}
+                            <br/>
+                            (Opinion: {{.comment}})
+                        {{end}}
+                    </li>
+                {{end}}
+            {{ end }}
+        </ul>
+    {{ end }}
+{{ end }}

@@ -2,6 +2,7 @@
 title: First Step with Custom Analysis in Soot Framework
 date: 2017-12-22
 permalink: first-step-with-custom-analysis-in-soot-framework
+tag: tech
 ---
 
 For some personal works, recently I had to learn <a href="https://sable.github.io/soot/">Soot framework</a> - a framework for analyzing and transforming Java and Android applications.

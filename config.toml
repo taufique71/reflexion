@@ -7,27 +7,32 @@ title = "Md. Taufique Hussain"
 
 [menus]
     [[menu.nav]]
-        identifier = "tech"
-        name = "Technical Posts"
-        title = "Technical Posts"
-        url = "/tech/"
+        identifier = "research"
+        name = "Research"
+        title = "Research"
+        url = "/research/"
+        weight = -120
+    [[menu.nav]]
+        identifier = "publications"
+        name = "Publications"
+        title = "Publications"
+        url = "/publications/"
         weight = -110
     [[menu.nav]]
-        identifier = "cycling_and_travel"
-        name = "Cycling And Travel Posts"
-        title = "Cycling And Travel Posts"
-        url = "/cycling_and_travel/"
+        identifier = "posts"
+        name = "Posts"
+        title = "Posts"
+        url = "/posts/"
         weight = -100
     [[menu.nav]]
-        identifier = "read_books"
-        name = "Books I Have Read"
-        title = "Books I Have Read"
-        url = "/read_books/"
+        identifier = "journal"
+        name = "Journal"
+        title = "Journal"
+        url = "/journal/"
         weight = -90
     [[menu.nav]]
-        identifier = "resume"
-        name = "Resume and CV"
-        title = "Resume and CV"
-        url = "/resume/"
+        identifier = "about"
+        name = "About Me"
+        title = "About Me"
+        url = "/about/"
         weight = -80
-
